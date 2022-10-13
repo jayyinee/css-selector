@@ -1,0 +1,68 @@
+* {
+  box-sizing: border-box;
+  margin: 10px;
+}
+
+div {
+  border: 4vmin;
+  text-align: left;
+}
+
+h1 {
+  font-size: 7vmax;
+  color: red;
+  text-align: center;
+}
+
+h2 {
+  font-size: 5vw;
+}
+
+p {
+  font-size: 3vw;
+}
+
+h2 + p{
+  margin-top: 2vmin;
+}
+
+p + h2 {
+  margin-top: 5vmin;
+}
+
+.ranking {
+  border: 2vmin solid hotpink;
+}
+
+.container-top1, .container-top3, .container-top5 {
+  border-style: solid;
+  border-color: lightpink;
+  background-color: beige;
+  color: sienna;
+  margin-left: 10vmax;
+  margin-right: 10vmax;
+}
+
+.container-top2, .container-top4 {
+  border-style: dashed;
+  border-color: coral;
+  background-color: darkseagreen;
+  color: lightyellow;
+  margin-left: 10vmax;
+  margin-right: 10vmax;
+}
+
+.container-no-top {
+  border: 2vmin dotted mediumturquoise;
+  background-color: lightblue;
+  color: steelblue;
+  margin-left: 10vmax;
+  margin-right: 10vmax;
+}
+
+.container-image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 500px;
+}
