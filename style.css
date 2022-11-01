@@ -22,7 +22,7 @@ p {
   font-size: 3vw;
 }
 
-h2 + p{
+h2 + p {
   margin-top: 2vmin;
 }
 
@@ -34,7 +34,7 @@ p + h2 {
   border: 2vmin solid hotpink;
 }
 
-.container-top1, .container-top3, .container-top5 {
+.container-top1 {
   border-style: solid;
   border-color: lightpink;
   background-color: beige;
@@ -43,7 +43,7 @@ p + h2 {
   margin-right: 10vmax;
 }
 
-.container-top2, .container-top4 {
+.container-top2 {
   border-style: dashed;
   border-color: coral;
   background-color: darkseagreen;
@@ -60,9 +60,13 @@ p + h2 {
   margin-right: 10vmax;
 }
 
-.container-image {
+div img {
   display: block;
   margin-left: auto;
   margin-right: auto;
   width: 500px;
+}
+
+.container-top1, .container-top2, .container-no-top {
+  padding: 2em;
 }
