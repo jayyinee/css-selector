@@ -76,7 +76,7 @@ img {
   color: lightcyan;
 }
   
-p img {
+p span img {
   display: none;
 }
 
