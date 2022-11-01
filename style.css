@@ -29,7 +29,7 @@ h2 + p {
 p + h2 {
   margin-top: 5vmin;
 }
-
+  
 .ranking {
   border: 2vmin solid hotpink;
 }
@@ -60,7 +60,7 @@ p + h2 {
   margin-right: 10vmax;
 }
 
-div img {
+img {
   display: block;
   margin-left: auto;
   margin-right: auto;
