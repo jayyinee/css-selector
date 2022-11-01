@@ -60,6 +60,10 @@ p + h2 {
   margin-right: 10vmax;
 }
 
+.container-top1, .container-top2, .container-no-top {
+  padding: 4em;
+}
+
 img {
   display: block;
   margin-left: auto;
@@ -67,11 +71,23 @@ img {
   width: 500px;
 }
 
-.container-top1, .container-top2, .container-no-top {
-  padding: 4em;
+.container-no-top > p {
+  font: 1em;
+  color: lightcyan;
+}
+  
+a img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 500px;
 }
 
-.container-no-top > p:hover span {
+a img span {
+   position:absolute;
+}
+
+a:hover img span {
   display: block;
   margin-left: auto;
   margin-right: auto;
