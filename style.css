@@ -68,5 +68,12 @@ img {
 }
 
 .container-top1, .container-top2, .container-no-top {
-  padding: 2em;
+  padding: 4em;
+}
+
+.container-no-top > p:hover span {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 200px;
 }
